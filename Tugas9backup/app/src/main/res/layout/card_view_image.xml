@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imagelv"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/brayen"/>
+
+        <TextView
+            android:text="Nama      :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNamaMhs"
+            android:textSize="21dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/imagelv"
+            android:layout_toEndOf="@+id/imagelv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+
+        <TextView
+            android:id="@+id/txtNimMhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/imagelv"
+            android:layout_toRightOf="@+id/imagelv"
+            android:paddingBottom="5dp"
+            android:text="NIM         :"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imagelv"
+            android:layout_toRightOf="@+id/imagelv"
+            android:paddingBottom="5dp"
+            android:text="Gender    :"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtHobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="75dp"
+            android:layout_toEndOf="@+id/imagelv"
+            android:layout_toRightOf="@+id/imagelv"
+            android:paddingBottom="5dp"
+            android:text="Hobby     :"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="97dp"
+            android:layout_toEndOf="@+id/imagelv"
+            android:layout_toRightOf="@+id/imagelv"
+            android:paddingBottom="5dp"
+            android:text="Cita-Cita :"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:layout_toEndOf="@+id/imagelv"
+            android:layout_toRightOf="@+id/imagelv"
+            android:paddingBottom="5dp"
+            android:text="Motto Hidup  :"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNhpMhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="140dp"
+            android:layout_toEndOf="@+id/imagelv"
+            android:layout_toRightOf="@+id/imagelv"
+            android:paddingBottom="5dp"
+            android:text="No HP      :"
+            android:textColor="#000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
